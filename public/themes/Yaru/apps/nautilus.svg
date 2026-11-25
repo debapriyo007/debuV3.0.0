@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="folderGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7B7873"/>
+      <stop offset="100%" stop-color="#4F4D49"/>
+    </linearGradient>
+    <linearGradient id="frontTab" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E95420"/>
+      <stop offset="100%" stop-color="#C73809"/>
+    </linearGradient>
+    <linearGradient id="paperGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E4E4E6"/>
+    </linearGradient>
+  </defs>
+  <!-- Back Folder Tab -->
+  <path d="M 6 15 C 6 12 8 10 11 10 L 25 10 L 31 16 L 53 16 C 56 16 58 18 58 21 L 58 50 C 58 53 56 55 53 55 L 11 55 C 8 55 6 53 6 50 Z" fill="url(#folderGrad)"/>
+  
+  <!-- Document Inside -->
+  <rect x="14" y="16" width="36" height="24" rx="2" fill="url(#paperGrad)"/>
+  <line x1="20" y1="23" x2="44" y2="23" stroke="#888890" stroke-width="2" stroke-linecap="round"/>
+  <line x1="20" y1="28" x2="38" y2="28" stroke="#888890" stroke-width="2" stroke-linecap="round"/>
+  <line x1="20" y1="33" x2="42" y2="33" stroke="#888890" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Front Folder Body -->
+  <path d="M 5 24 C 5 21 7 19 10 19 L 54 19 C 57 19 59 21 59 24 L 59 50 C 59 53 57 55 54 55 L 10 55 C 7 55 5 53 5 50 Z" fill="url(#frontTab)"/>
+  <path d="M 6 22 L 58 22" stroke="#FFA380" stroke-width="1.5" stroke-opacity="0.6"/>
+</svg>
